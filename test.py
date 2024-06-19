@@ -112,4 +112,4 @@ if __name__ == "__main__":
         d, m, y = tinh_ngay_tiep_theo(d, m, y)
         print(f"Ngày tiếp theo là: {d}/{m}/{y}")
     else:
-        print("không có gtri")
+        print("không có gtri thoa man")
