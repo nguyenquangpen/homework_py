@@ -111,4 +111,4 @@ if __name__ == "__main__":
         d, m, y = tinh_ngay_tiep_theo(d, m, y)
         print(f"Ngày tiếp theo là: {d}/{m}/{y}")
     else:
-        print("Không có giá trị thỏa mãn.")
+        print("khong thoa mãn.")
