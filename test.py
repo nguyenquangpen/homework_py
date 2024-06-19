@@ -70,6 +70,7 @@ def tinh_ngay_tiep_theo(d, m, y):  # bài 9
             m += 1
     return d, m, y
 
+
 if __name__ == "__main__":
     print("Nhập 1, 2, 3, 4, 5, 6, 7, 8, 9 tương ứng với các bài 1, 2, 3, ...:")
     num = int(input())
