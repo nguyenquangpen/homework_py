@@ -1,4 +1,5 @@
 from collections import defaultdict
+import random
 
 def bai_1():
     D = {0: "zero", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine"}
@@ -45,11 +46,13 @@ def bai_5():
 
 def bai_6():
     dic = {}
-    for i in range(1, 12):
-        a = input(f'Nhap ten thang {i}: ')
-        print(f'Nhap luong mua cho thang {a}:')
-        arr = list(map(int, input().split()))
-        dic[a] = arr
+    for i in range(1, 13):
+        a = input(f'Nhap ten thang: ')
+        b = 'thang ' + str(a)
+        arr = []
+        for j in range(20):
+            arr.append(random.randint(100, 4000))
+        dic[b] = arr
     print("Danh sach luong mua theo thang:")
     print(dic)
 
