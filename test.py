@@ -112,4 +112,8 @@ if __name__ == "__main__":
         d, m, y = tinh_ngay_tiep_theo(d, m, y)
         print(f"Ngày tiếp theo là: {d}/{m}/{y}")
     else:
+<<<<<<< HEAD
         print("khong thoa mãn.")
+=======
+        print("không có gtri thoa man")
+>>>>>>> 5cc479cd381c2cbeee44fb6eb822d1caa00ae3e2

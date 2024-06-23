@@ -98,4 +98,4 @@ if __name__ == '__main__':
     elif n == 7:
         bai_7()
     else:
-        print('Khong hop le')
+        print('khong chinh xac nhap lai')
