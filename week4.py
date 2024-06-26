@@ -172,4 +172,4 @@ if __name__ == '__main__':
     elif n == 13:
         bai_13()
     else:
-        print('khong hop le nhap lai')
+        print("khong say ra")
